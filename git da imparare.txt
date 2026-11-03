@@ -46,3 +46,42 @@ in pratica se cambi un file che hai appena aggiunto, sdoppi il file: c'è il fil
 
 dopo aver aggiunto le modifiche con git add, tutto torna a essere pronto per essere fotografato.
 
+con git commit ti apre l'editor di testo preferito per inserire un commento al commit: inserisci il commento e esci salvando.
+
+git log     per vedere il commit andato a buon fine
+git log --stat per vedere altre informazioni.
+git log --oneline serve per vedere i commit uno per uno per riga.
+
+si consiglia all'inizio di un lavoro, soprattutto se versionato, di aggiungere la licenza; per progetti gratuiti, la licenza mit.
+
+per fare un commit senza aprire l'edito di testo usare
+git commit -m
+
+con
+git commit --amend puoi sovrascrivere il commit precedente.
+questo comando può essere usato anche per cambiare il commento del commti precedente.
+
+git restore serve per scartare le modifiche nella working directory. con l'opzione --staged serve per mettere il file da staged a traked.
+
+git diff serve per vedere tutte le differenze tra l'ultimo commit e i file attuali.
+
+
+
+Repository remoti
+
+il comando sarebbe
+git remote
+
+però prima bisogna impostarlo: andiamo a prendere il link dalla repository remota.
+
+quindi
+
+git remote add [alias] [link della repository] per settare il link pc-repository
+poi
+git remote -v    per vedere il link
+
+per sincronizzare il repository remoto con quello locale, si fa un push
+
+git push [alias repository remoto][ramo dove vogliamo effettuare il push]
+è utile anche
+git remote show [alias reposotory remoto]
