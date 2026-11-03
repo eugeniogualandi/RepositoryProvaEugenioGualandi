@@ -80,8 +80,11 @@ git remote add [alias] [link della repository] per settare il link pc-repository
 poi
 git remote -v    per vedere il link
 
-per sincronizzare il repository remoto con quello locale, si fa un push
+per allineare il repository remoto con quello locare bisogna usare il push:
+git push [nome alias repository remoto][nome ramo bersaglio]
 
-git push [alias repository remoto][ramo dove vogliamo effettuare il push]
-è utile anche
-git remote show [alias reposotory remoto]
+mi sono accorto che ho fatto un push di un amend, che non si potrebbe fare: quindi ho usato la funzione
+-f
+
+adesso provo a allineare il repository remoto con quello locale, facendo un commit da remoto.
+ricordati di dare la descrizione del commit.
