@@ -88,3 +88,32 @@ mi sono accorto che ho fatto un push di un amend, che non si potrebbe fare: quin
 
 adesso provo a allineare il repository remoto con quello locale, facendo un commit da remoto.
 ricordati di dare la descrizione del commit.
+
+per fare il pull sembra che prima bisogna fare il git fetch --all. in realta con
+git pull [nome alias repository remoto][nome ramo target locale] esegue anche il fetch.
+il fetch serve per dare un occhiata a quello che succede senza unire il remoto con il locale: si vede con git log --oneline --all
+
+per rinominare un alias locale possiamo usare
+-git remote rename [alias vecchio][nuovo nome alias remoto]
+
+per rimuovere un repository remoto invece
+
+-git remote -rm [nome alias repository remoto da eliminare]
+
+ricorda che prima di fare un push o un pull è meglio fare un commit, se no devi forzare il push. in realtà facendo un pull stai facendo una sorta di commit e allineamento dei file attuali con quelli da remoto. comunque prima di effetturare un pull è meglio fare il commit per non avere nulla di traked o in staged non commited.
+
+
+
+parliamo di rami paralleli.
+
+per avviare un ramo nuovo si usa
+git branch [nome del nuovo ramo]
+
+con il comando
+git checkout [nome del ramo]
+
+ci spostiamo su un altro ramo.
+
+abbiamo scoperto anche l'opzione --graph da aggiungere alla oneline all per vedere una panoramica della varsione.
+
+
