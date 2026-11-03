@@ -1,0 +1,48 @@
+02/11/2026
+Questa guida serve per imparare a usare Git.
+Serve a Memoria per insegnare a Eugenio l'uso di git.
+
+installa git da link, cercalo su internet e scaricalo.
+
+-assicurati che sia attiva la git bash
+-togli la git gui
+-attiva aggiornamenti
+-attiva i profili bash?
+-usa nano o vim
+
+Primi comandi
+
+git --version    serve a vedere la versione di git
+
+git config     serve per impostare configurazioni git
+
+git config --global user.mail "[tua email]"  imposta la tua E_mail a livello globale
+	--list  invece da una lista di tutti i parametri come sono configurati
+	--global user.name "[tuo nome]" imposta il tuo nome
+
+git help    serve a vedere la lista dei comandi git
+
+
+Ci sono due modi per avviare un git
+
+o lo cloni o lo inizializzi.
+
+git init     lo inizializzi. crei un nuovo repository.
+
+la scritta master comparirà una volta inizializzato.
+
+
+03-11-2026
+
+in pratica con
+
+git clone [indirizzo url del repository] [nome cartella dove vogliamo settare working directory]    si va a clonare un repository da un altra fonte.
+
+in una working directory i file possono essere tracciati o non tracciati. una volta tracciato un file, git inizia a fare il versioning.
+
+git add [nome file]   ci permette di iniziare a tracciare un file.
+
+in pratica se cambi un file che hai appena aggiunto, sdoppi il file: c'è il file che verrà aggiunto alla prossima istantanea e il file che non verrà modificato nella prossima istantanea.
+
+dopo aver aggiunto le modifiche con git add, tutto torna a essere pronto per essere fotografato.
+
