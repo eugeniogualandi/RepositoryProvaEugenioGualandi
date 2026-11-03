@@ -116,4 +116,7 @@ ci spostiamo su un altro ramo.
 
 abbiamo scoperto anche l'opzione --graph da aggiungere alla oneline all per vedere una panoramica della varsione.
 
+con 
+git merge [nome del ramo con il quale fare il merge]
 
+si fa tutta una serie di azioni che chiedono di risolvere i conflitti: nei file vengono scritti i conflitti. comunque la situazione rimane nel limbo finche non risolvi i conflitti individuati tramite git diff e fatto un git commit. adesso mi manca solo da rimuovere l'etichetta del ramo con git branc -d [nome etichetta da eliminare]
