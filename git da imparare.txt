@@ -125,3 +125,4 @@ si fa tutta una serie di azioni che chiedono di risolvere i conflitti: nei file 
 07-11-2026
 
 oggi reinizio con la condivisione file fra più utenti. per prima cosa creo un branch nuovo, ci metto un file condiviso, lo pusho in rete e lo vado a riprendere da un'altra cartella locale simulando che sia un'altra persona.
+in pratica, quando vai in un nuovo ambiente locale, con il git clone ti mette crea il ramo principale e ti posiziona li. il ramo principale è quello con scritto head nel repository remoto. nel nostro caso, dopo aver settato un untente locale, abbiamo creato e sincronizzato un branch locale con quello remoto di equale nome. poi abbiamo pushato verso internet e infine abbiamo fatto un fetch per aggironare l'altro locale. ricordati di guardare dove sta la head locale prima di fare modifiche e ricorda di fare il pull. adesso faccio un commit e un merge e un push per allineare tutto.(locale1 e internet)
