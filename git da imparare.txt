@@ -120,3 +120,8 @@ con
 git merge [nome del ramo con il quale fare il merge]
 
 si fa tutta una serie di azioni che chiedono di risolvere i conflitti: nei file vengono scritti i conflitti. comunque la situazione rimane nel limbo finche non risolvi i conflitti individuati tramite git diff e fatto un git commit. adesso mi manca solo da rimuovere l'etichetta del ramo con git branc -d [nome etichetta da eliminare]
+
+
+07-11-2026
+
+oggi reinizio con la condivisione file fra più utenti. per prima cosa creo un branch nuovo, ci metto un file condiviso, lo pusho in rete e lo vado a riprendere da un'altra cartella locale simulando che sia un'altra persona.
