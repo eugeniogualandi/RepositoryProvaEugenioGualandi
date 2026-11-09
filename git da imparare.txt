@@ -131,3 +131,9 @@ per eliminare i branch che non servono più:
 
 git branch --delete [nome ramo da eliminare locale]
 git push [alias repository remoto] --delete [nome ramo remoto da cancellare]
+
+
+09-11-2026
+
+andiamo a riforndare un ramo con il rebase.
+
