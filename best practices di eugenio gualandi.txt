@@ -1,0 +1,4 @@
+mettere sempre la data inversa sul commit
+prima di iniziare un lavoro a inizio giornata, fare un pull. poi creare un nuovo branch locale. lavorare sul branch locale con molti commit, andando a inserire la documentazione puntualmente. a fine giornata fare il rebase -i del ramo locale e il merge, quindi pushare su remoto. non far partire un progetto senza git.ignore.
+fai il readme.md per ogni progetto.
+prima di fare il merge con il master, fai test locali sul funzionamento.
