@@ -155,3 +155,10 @@ più caratteri *
 singolo carattere di una lista [abc]
 singolo carattere di una lista [a-z]
 
+
+per prima cosa fare un file .gitignore ricordati di togliere l'estenzione.
+i file vengono ignorati a livello globale.
+con 
+git status -u
+rilevi anche i file dentro le directory.
+

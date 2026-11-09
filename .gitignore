@@ -1,0 +1,8 @@
+#file da ignorare
+segreti*.txt
+#funziona con le wildcard, forse anche con le regular expression
+#in questo caso sto ignorando tutti i file che iniziano con "segreti" e finiscono con ".txt"
+segreti cartella/*
+#qui ignora proprio la cartella e il suo contenuto. calcola che ho messo * per far funzionare l'istruzione dopo
+!segreti cartella/istruzioni.txt
+#qui ho negato il fatto di ignorare questo file
