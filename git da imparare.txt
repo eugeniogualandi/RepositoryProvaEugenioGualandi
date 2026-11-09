@@ -143,3 +143,5 @@ git ceckout -b [nome ramo] (git branch + cechout grazie a -b)
 da quello che ho capito il rebase è un aggiornamento dal ramo master sul ramo secondario. quindi una volta fatto il rebase si può fare un bel fast foward senza conflitti.
 il comando, partendo dal ramo secondario che vuoi aggiornare con il master, è
 git rebase [nome del ramo principale sul quale aggiornarsi]    in pratica traduco rebase con cambio padre/base.
+
+non fare mai il rebase di qualcosa che hai pushato. in pratica non cambiare l'ash di della storia che sta sotto l'head del ramo remoto. anche amend cambia l'hash.

@@ -1,2 +1,0 @@
-file che serve per complicare il merge.
-questo file è in un ramo parallelo.
