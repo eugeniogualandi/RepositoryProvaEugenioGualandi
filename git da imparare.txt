@@ -140,4 +140,6 @@ andiamo a riforndare un ramo con il rebase.
 creiamo un nuovo ramo:
 git ceckout -b [nome ramo] (git branch + cechout grazie a -b)
 
-
+da quello che ho capito il rebase è un aggiornamento dal ramo master sul ramo secondario. quindi una volta fatto il rebase si può fare un bel fast foward senza conflitti.
+il comando, partendo dal ramo secondario che vuoi aggiornare con il master, è
+git rebase [nome del ramo principale sul quale aggiornarsi]    in pratica traduco rebase con cambio padre/base.
