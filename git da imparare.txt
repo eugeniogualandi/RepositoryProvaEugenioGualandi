@@ -137,3 +137,7 @@ git push [alias repository remoto] --delete [nome ramo remoto da cancellare]
 
 andiamo a riforndare un ramo con il rebase.
 
+creiamo un nuovo ramo:
+git ceckout -b [nome ramo] (git branch + cechout grazie a -b)
+
+
