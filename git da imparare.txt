@@ -209,3 +209,13 @@ git clone [link repository] --bare
 
 ho provato a fare una cartella nas locale dal quale clonare il bare repository: ti fa anche la working directory. ricorda che con il pwd puoi prendere il path assoluto.
 
+
+per ultima cosa facciamo l'autenticazione con uso di repository privata.
+
+in una nuova cartella vado a fare il git clone di un repository privato mio.
+
+nel gestore credenziali del mio pc c'è una password salvata per git hub, quindi ogni volta che faccio un pull o un push mi da quello.
+
+comunque in impostazioni di git hub, developer, personal access token fine-grained tokens vado a creare un token temporaneo.
+
+i requisiti minimi sono content read and write e metadata read only(aggiunto in automatico da git hub.
