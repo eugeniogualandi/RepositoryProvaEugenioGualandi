@@ -198,3 +198,14 @@ git tag [nome del tag]
 per eliminare un tag
 
 git tag -d [nome del tag]
+
+
+Passiamo alle bare repository
+
+si intende solo i file dentro .git un bare repository non ha la working directory.
+
+per clonare una repository solo il bare,
+git clone [link repository] --bare
+
+ho provato a fare una cartella nas locale dal quale clonare il bare repository: ti fa anche la working directory. ricorda che con il pwd puoi prendere il path assoluto.
+
