@@ -179,3 +179,22 @@ git stash [nome stash] per riprendere lo stash (senza nome riprende l'ultimo sta
 comunque in pratica lo stash è un branch non commitato del quale fai merging senza commit.
 
 
+Passiamo a fare i Tag
+i tag sono degli alias degli ash.
+per codice, il commit con la relase si usa chiamarlo V[numero].[numero]
+
+git tag    fa vedere i tag nel nostro repository
+
+git tag -a [nome versione] [ash commit da taggare] -m "[dicitura relase]"  per taggare un commit.
+
+i tag sono come i rami, cioè locali.
+per sincronizzare i tag usare
+git push origin [nome del tag].
+
+per taggare ultimo commit senza messaggio usare
+
+git tag [nome del tag]
+
+per eliminare un tag
+
+git tag -d [nome del tag]
