@@ -162,3 +162,20 @@ con
 git status -u
 rilevi anche i file dentro le directory.
 
+10-11-2026
+
+oggi imparero lo stash.
+
+git stash push (o senza push)  mette in salvataggio la working directory senza commit.
+
+git stash list serve per vedere i salvataggi
+
+git stashd rop [nome stash] per eliminare uno stash
+
+git stash clear per eliminare gli stash
+
+git stash [nome stash] per riprendere lo stash (senza nome riprende l'ultimo stash)
+
+comunque in pratica lo stash è un branch non commitato del quale fai merging senza commit.
+
+
